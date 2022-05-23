@@ -1,9 +1,8 @@
-import { Box, Grid, Paper, Button, Typography } from '@mui/material'
-import React, { useState, useEffect } from 'react'
+import { Box, Grid,  Button, Typography } from '@mui/material'
+import React, { useState } from 'react'
 import db from "./db.json"
 const IndexCalc = () => {
   const [value, setValue] = useState();
-  const [sign, setSign] = useState();
 
   const buttonClick = (e) => {
 

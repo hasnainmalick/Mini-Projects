@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Typography , CardMedia, ButtonGroup,Button, Link} from '@mui/material'
 import image6 from '../Images/image6.jpg'
-import Footer from '../footer/Footer'
+import Footer from '../footer/Footer    '
 // icon
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react'
-import { Box, TextField, Button,IconButton ,Typography} from '@mui/material'
+import { Box, TextField, Button ,Typography} from '@mui/material'
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import {makeStyles} from '@mui/styles'
 import ShowTodo from './ShowTodo'
 
 const getLocalItem=()=>{
@@ -66,51 +65,3 @@ const IndexTodo = () => {
 }
 
 export default IndexTodo
-
-
-
-// const IndexTodo = () => {
-//   const [addTodo,setAddTodo] = useState("");
-
-
-//   const useStyles=makeStyles({
-//     root:{
-//       backgroundColor:"#03cafc"
-//     }
-//   })
-//   const handleSubmit=(e)=>{
-//     e.preventDefault();
-//     setAddTodo(addTodo)
-//     alert(addTodo)
-//   }
-//   const handleChange=(e)=>{
-//     setAddTodo(e.target.value)
-//   }
-//   const handleText=(e)=>{
-//     setAddTodo(e.target.value)
-//   }
-//   const handleAdd=(e)=>{
-//     e.preventDefault();
-//     // alert(addTodo)
-//     console.log("clicked")
-//   }
-//   const classes = useStyles();
-//   return (
-//     <div>
-//        {/* <Box >
-//          <Typography variant='h3'>Todo-List App</Typography>
-//           <TextField label="Enter Todo" onChange={handleChange} required value={addTodo}>
-//           </TextField>
-//           <IconButton onClick={handleSubmit} color="primary" aria-label="Add" size="large">
-//             <AddCircleIcon />
-//           </IconButton>
-//         </Box>  */}
-//         <input refs="name" type="text" value={addTodo} onChange={handleText}></input>
-//         <button onClick={handleAdd}>Add </button>
-
-
-//     </div>
-//   )
-// }
-
-// export default IndexTodo
